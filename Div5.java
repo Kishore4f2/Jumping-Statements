@@ -5,9 +5,7 @@ public class Div5 {
         int last = 0;
         for(int i=1;i<=500;i++) {
             if(i%5==0 && i%11==0) {
-                if(last<i) {
                     last = i;
-                }
             }
         }
         System.out.print(last);
